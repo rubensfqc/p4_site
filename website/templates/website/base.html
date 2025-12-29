@@ -1,4 +1,6 @@
 
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,7 +10,9 @@
 </head>
 <body>
 <header class="header">
- <div class="logo">LOGO</div>
+ <div class="logo-container">
+   <img src="{% static 'website/images/logoPlat4U_m.png' %}" alt="Company Logo" height="60">
+</div>
  <nav>
   <a href="/">Início</a>
   <a href="/funcionalidades/">Aplicativos</a>
