@@ -28,6 +28,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 /my_venv/
+/website/.*
+.DS_Store
 quotation_prj/quotation_app/migrations/*
 !quotation_prj/quotation_app/migrations/__init__.py
 
